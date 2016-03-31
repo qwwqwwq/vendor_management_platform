@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>New Risk Assessment</title>
+	<meta charset="UTF-8"> 
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="exception.css">
+	<link rel="icon" 
+      type="image/png" 
+      href="image/star.jpg">
+</head>
+
+<body>
+	
+	<div id='cssmenu'>
+		<ul>
+   			<li><a href='overallDash.html'><span>Dash Boards</span></a></li>
+   			<li><a href='index.html'><span>New Request</span></a></li>
+   			<li ><a href='vendor.html'><span>Vendor</span></a></li>
+   			<li class='active'><a href='diligence.html'><span>Due Diligence</span></a></li>
+   			<li><a href='red.html'><span>Red Flag 1</span></a></li>
+   			<li><a href='contract.html'><span>Contract</span></a></li>
+   			<li><a href='red2.html'><span>Red Flag 2</span></a></li>
+   			<li class='last'><a href='repository.html'><span>Repository</span></a></li>
+		</ul>
+	</div>
+	<h1 class="underNav"> Vendor Due Diligence Page</h1>
+	<br>
+	<h2 class="stat">Status: The vendor you requested has been classified as Risk Tier 1 or 2. 
+		<br>More information will be needed to continue.
+	</h2>
+	<h3 class="advice">Purchasing Team will obtain information from vendor. 
+	<br> If information is a potential red flag, Security Council will review.</h3>
+		<!-- Start the Questionaire -->
+
+	<div class="diligenceTable">
+		<table border="6" style="width:96%">
+			<tr class="topic">
+				<th colspan="2"> <strong>Task Name</strong></th>
+				<th><strong>Task Description</strong></th>
+				<th><strong>Comments</strong></th>
+			</tr>
+			<tr>
+				<th>1</th>
+				<td><strong>Regulatory Compliance</strong></td>
+				<td>If the vendor is subject to specific regulations (e.g., PCI, HIPAA), 
+				<br>is the vendor is compliant with the applicable regulations?</td>
+				<td>
+					<form>
+						<input type="radio" name="request" value="yes">Yes<br>
+  						<input type="radio" name="request" value="no"> No<br>
+  						<input type="radio" name="request" value="nA"> N/A<br>
+  						<input type="radio" name="request" value="unsure"> Unsure and need assistance	
+					</form>
+				</td>
+			</tr>	
+			<tr>
+				<th>2</th>
+				<td><strong>Subcontractors</strong></td>
+				<td>Does the vendor actively conduct due diligence and monitor its key subcontractors?</td>
+				<td>
+					<form>
+						<input type="radio" name="request" value="yes">Yes<br>
+  						<input type="radio" name="request" value="no"> No<br>
+  						<input type="radio" name="request" value="nA"> N/A<br>
+  						<input type="radio" name="request" value="unsure"> Unsure and need assistance	
+					</form>
+				</td>
+			</tr>	
+			<tr>
+				<th>3</th>
+				<td><strong>Background Checks </strong></td>
+				<td>Does the vendor conduct criminal background checks on its employees?</td>
+				<td>
+					<form>
+						<input type="radio" name="request" value="yes">Yes<br>
+  						<input type="radio" name="request" value="no"> No<br>
+  						<input type="radio" name="request" value="nA"> N/A<br>
+  						<input type="radio" name="request" value="unsure"> Unsure and need assistance	
+					</form>
+				</td>
+			</tr>	
+			<tr>
+				<th>4</th>
+				<td><strong>Business Continuity and 
+				<br> Disaster Recovery Plans</strong></td>
+				<td>Does the vendor maintain Business Continuity and Disaster Recovery Plans?</td>
+				<td>
+					<form>
+						<input type="radio" name="request" value="yes">Yes<br>
+  						<input type="radio" name="request" value="no"> No<br>
+  						<input type="radio" name="request" value="nA"> N/A<br>
+  						<input type="radio" name="request" value="unsure"> Unsure and need assistance	
+					</form>
+				</td>
+			</tr>	
+			<tr>
+				<th>5</th>
+				<td><strong>Information Security Program</strong></td>
+				<td>Does the vendor have a written Information Security Policy and 
+				<br>provide training or an awareness program to its employees?</td>
+				<td>
+					<form>
+						<input type="radio" name="request" value="yes">Yes<br>
+  						<input type="radio" name="request" value="no"> No<br>
+  						<input type="radio" name="request" value="nA"> N/A<br>
+  						<input type="radio" name="request" value="unsure"> Unsure and need assistance	
+					</form>
+				</td>
+			</tr>	
+			<tr>
+				<th>6</th>
+				<td><strong>Vulnerability Scanning &amp;
+				<br> Penetration Tests</strong></td>
+				<td>Does the vendor conduct periodic vulnerability scanning and penetration tests?</td>
+				<td>
+					<form>
+						<input type="radio" name="request" value="yes">Yes<br>
+  						<input type="radio" name="request" value="no"> No<br>
+  						<input type="radio" name="request" value="nA"> N/A<br>
+  						<input type="radio" name="request" value="unsure"> Unsure and need assistance	
+					</form>
+				</td>
+			</tr>	
+			<tr>
+				<th>7</th>
+				<td><strong>Encryption</strong></td>
+				<td>Does the vendor use encryption and key management?</td>
+				<td>
+					<form>
+						<input type="radio" name="request" value="yes">Yes<br>
+  						<input type="radio" name="request" value="no"> No<br>
+  						<input type="radio" name="request" value="nA"> N/A<br>
+  						<input type="radio" name="request" value="unsure"> Unsure and need assistance	
+					</form>
+				</td>
+			</tr>	
+			<tr>
+				<th>8</th>
+				<td><strong>Data Segregation</strong></td>
+				<td>Will the vendor segregate Macy's data from its other clients' data?</td>
+				<td>
+					<form>
+						<input type="radio" name="request" value="yes">Yes<br>
+  						<input type="radio" name="request" value="no"> No<br>
+  						<input type="radio" name="request" value="nA"> N/A<br>
+  						<input type="radio" name="request" value="unsure"> Unsure and need assistance	
+					</form>
+				</td>
+			</tr>	
+			<tr>
+				<th>9</th>
+				<td><strong>System Access</strong></td>
+				<td>Does the vendor have user access control restrictions that follow
+				<br> the "least privilege" and "need to know" concepts?</td>
+				<td>
+					<form>
+						<input type="radio" name="request" value="yes">Yes<br>
+  						<input type="radio" name="request" value="no"> No<br>
+  						<input type="radio" name="request" value="nA"> N/A<br>
+  						<input type="radio" name="request" value="unsure"> Unsure and need assistance	
+					</form>
+				</td>
+			</tr>
+			<tr>
+				<th>10</th>
+				<td><strong>Data Breach and Security Incident Handling</strong></td>
+				<td>Does the vendor have established procedures for handling
+				<br> data breaches and security incidents?</td>
+				<td>
+					<form>
+						<input type="radio" name="request" value="yes">Yes<br>
+  						<input type="radio" name="request" value="no"> No<br>
+  						<input type="radio" name="request" value="nA"> N/A<br>
+  						<input type="radio" name="request" value="unsure"> Unsure and need assistance	
+					</form>
+				</td>
+			</tr>
+			<tr>
+				<th>11</th>
+				<td><strong>Records Management &amp; Data Destruction</strong></td>
+				<td>Does the vendor have a Records Management and/or Data Destruction Policy?</td>
+				<td>
+					<form>
+						<input type="radio" name="request" value="yes">Yes<br>
+  						<input type="radio" name="request" value="no"> No<br>
+  						<input type="radio" name="request" value="nA"> N/A<br>
+  						<input type="radio" name="request" value="unsure"> Unsure and need assistance	
+					</form>
+				</td>
+			</tr>
+			<tr>
+				<th>12</th>
+				<td><strong>Physical Security</strong></td>
+				<td>Does the vendor have physical security of their facilities and technology systems?</td>
+				<td>
+					<form>
+						<input type="radio" name="request" value="yes">Yes<br>
+  						<input type="radio" name="request" value="no"> No<br>
+  						<input type="radio" name="request" value="nA"> N/A<br>
+  						<input type="radio" name="request" value="unsure"> Unsure and need assistance	
+					</form>
+				</td>
+			</tr>
+			<tr>
+				<th>13</th>
+				<td><strong>Malicious Code &amp; Virus Protection</strong></td>
+				<td>Does the vendor use malicious code and virus detection and 
+				<br> protection products on their workstations and servers?</td>
+				<td>
+					<form>
+						<input type="radio" name="request" value="yes">Yes<br>
+  						<input type="radio" name="request" value="no"> No<br>
+  						<input type="radio" name="request" value="nA"> N/A<br>
+  						<input type="radio" name="request" value="unsure"> Unsure and need assistance	
+					</form>
+				</td>
+			</tr>
+			<tr>
+				<th>14</th>
+				<td><strong>Change Management</strong></td>
+				<td>Does the vendor have change management protocols?</td>
+				<td>
+					<form>
+						<input type="radio" name="request" value="yes">Yes<br>
+  						<input type="radio" name="request" value="no"> No<br>
+  						<input type="radio" name="request" value="nA"> N/A<br>
+  						<input type="radio" name="request" value="unsure"> Unsure and need assistance	
+					</form>
+				</td>
+			</tr>
+			<tr>
+				<th>15</th>
+				<td><strong>Independent Security Assessment</strong></td>
+				<td>Does the vendor have a SOC2 Report, ISO 27001 Certification, 
+				<br> or other similar independent security assessment?  If so, please attach.</td>
+				<td>
+					<form>
+						<input type="radio" name="request" value="yes">Yes<br>
+  						<input type="radio" name="request" value="no"> No<br>
+  						<input type="radio" name="request" value="nA"> N/A<br>
+  						<input type="radio" name="request" value="unsure"> Unsure and need assistance<br>
+  						<img class="clip" src="image/clip.jpg">
+						<p class="attachments"> Click to add attachments</p>	
+					</form>
+				</td>
+			</tr>
+			<tr>
+				<th>16</th>
+				<td><strong>Reputation</strong></td>
+				<td>Perform an internet search and/or BBB search 
+				<br> of the vendor and evaluate the vendor's reputation.</td>
+				<td>
+					<form>
+						<input type="radio" name="request" value="yes">Yes<br>
+  						<input type="radio" name="request" value="no"> No<br>
+  						<input type="radio" name="request" value="nA"> N/A<br>
+  						<input type="radio" name="request" value="unsure"> Unsure and need assistance	
+					</form>
+				</td>
+			</tr>
+			<tr>
+				<th>17</th>
+				<td><strong>Financial Stability</strong></td>
+				<td>Obtain the vendor's Dun &amp; Bradstreet Viability Rating 
+				and evaluate the vendor's financial stability and attach a copy of the report.</td>
+				<td>
+					<form>
+						<input type="radio" name="request" value="yes">Yes<br>
+  						<input type="radio" name="request" value="no"> No<br>
+  						<input type="radio" name="request" value="nA"> N/A<br>
+  						<input type="radio" name="request" value="unsure"> Unsure and need assistance <br>
+  						<img class="clip" src="image/clip.jpg">
+						<p class="attachments"> Click to add attachments here</p>	
+					</form>
+				</td>
+			</tr>
+		</table>
+	</div>
+
+		<!-- End of Questionaire -->
+	<div id="vendorButton">	
+		<div id="return">
+			<button type="button" class="back"><a href="vendor.html"> Back</a></button>
+		</div>
+		<div id="save">
+			<button type="button" class="save"> Save</button>
+		</div>
+		<div id="forward">
+			<button type="button"><a href="red.html"> Continue</a></button>
+		</div>
+	</div>
+	<div id="copyright">
+		<footer>
+ 			<small>© Copyright 2016, Macy's.com</small>
+		</footer>
+	</div>
+</body>
